@@ -4,6 +4,11 @@ Simple font texture generator adapted from a Direct2D sample in the Windows 7 SD
 
 Although the code is platform-specific (Windows), the output texture image could be used for rendering text on any graphics API or platform (via basic texture mapping).
 
+### Sample Output
+
+512x512 font texture, visible ASCII characters in Calibri (size 54):
+![Sample Output](example/calibri512.png)
+
 ### TODO
 * Change code to take command-line parameters to set font, font size, output texture size, etc.
   * Currently is hard-coded to write a 512x512 image containing all visible ASCII characters in a specific size in Calibri font.
