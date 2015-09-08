@@ -4,6 +4,13 @@ Simple font texture generator adapted from a Direct2D sample in the Windows 7 SD
 
 Although the code is platform-specific (Windows), the output texture image could be used for rendering text on any graphics API or platform (via basic texture mapping).
 
+### Windows Build Instructions
+
+1. Install Windows 7 SDK
+2. Open project file with VS2013 (or newer)
+
+Note: there aren't any plans to support other platforms.
+
 ### Sample Output
 
 512x512 font texture, visible ASCII characters in Calibri (size 54):
